@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <title>Prime Video</title>
+    <link rel="icon" href="https://m.media-amazon.com/images/G/01/digital/video/DVUI/favicons/favicon.png">
+    <style>
+        .icon {
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .icon1 {
+            color: #fff;
+            font-size: 25px;
+        }
+        .hero{
+            background-color: #000;
+            background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg');
+            background-repeat: no-repeat;
+            height: 700px;
+            color: #fff;
+        }
+        h3{
+            font-size: 25px;
+            font-weight: 300;
+        }
+        .btn{
+            background-color: #0f79af;
+            padding-left: 50px;
+            padding-right: 50px;
+            color: white;
+        }
+        
+        .btn:hover{
+                background-color: #00a0d6;
+                color: #fff;
+            }
+
+        .services{
+            background-image: url('https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            display: flex; /* Use flexbox */
+            justify-content: flex-end; /* Align content to the right */
+             /* Center content vertically */
+            color: #fff;
+        }
+        .services1{
+            padding-top: 90px;
+        }
+        h3{
+            font-size: 22px;
+            font-weight: 300;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+            transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+        }
+
+        .image-grid img:hover {
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8); /* Apply shadow on hover */
+        }
+        .widget{
+            display: flex;
+            flex-direction: row;
+        }
+        .fire{
+            background-image: url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 700px;
+            display: flex; /* Use flexbox */
+            justify-content: flex-end;
+            color: #fff;
+        }
+        .f1{
+            flex: 1;
+            padding-top: 100px;
+        }
+        .pogo{
+            background-color: #000;
+            background-image: url(' https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            color: #fff;
+        }
+        .pogo1{
+            padding-top: 120px;
+        }
+        .footer{
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        .foot{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+
+                    <a class="navbar-brand text-white px-5 fw-bolder" href="#">Prime Video</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Store
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Live TV</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <form class="d-flex px-lg-4  text-white">
+                        <a href=""><i class="bi bi-search icon"></i></a>
+                    </form>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Try for Free</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <div class=" px-5">
+                        <a href="">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMTAwYzI3LjYxNCAwIDUwLTIyLjM4NiA1MC01MFM3Ny42MTQgMCA1MCAwIDAgMjIuMzg2IDAgNTBzMjIuMzg2IDUwIDUwIDUwWiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik04Ni43MTggODMuOTM5Qzc3LjU4MyA5My44MTYgNjQuNTE0IDEwMCA1MCAxMDBjLTE0LjczIDAtMjcuOTc0LTYuMzctMzcuMTI0LTE2LjUwNiAxLjIxMi0zLjA5IDIuOTIyLTUuOTAyIDUuMzA0LTguMjI4QzI1LjQ2IDY4LjE1NyAzOC40MjUgNjUuMjM1IDUwIDY1LjIzNWMxMS41NTQgMCAyMy42NTUgMi45MDYgMzAuOTMzIDkuOTkzIDIuNTEyIDIuNDQ2IDQuNDA1IDUuNDMgNS43ODUgOC43MVoiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNNjkuNTIgMzcuMTFjLjc5NC0xMi4yMTMtNS44OS0yMi4yNjYtMTkuNDY4LTIyLjI2Ni0xMy41NzkgMC0yMC4yNjMgMTAuMDUzLTE5LjQ2OCAyMi4yNjUuNzk1IDEyLjIxMyA4Ljc5NCAyMC43MDMgMTkuNDY4IDIwLjcwMyAxMC42NzMgMCAxOC42NzMtOC40OSAxOS40NjgtMjAuNzAzWiIgZmlsbD0idXJsKCNjKSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzRDNzE4RSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCNDA1MyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg=="
+                                alt="" width="40px"></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container-fluid d-flex hero">
+            <div class="mt-5">
+                <h1>Welcome to Prime Video</h1>
+                <h3>Watch the latest movies, TV shows, and award-winning <br> Amazon Originals</h3>
+                <button class="btn mt-3">Sign up for Free</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid services">
+            <div class="mt-5 services1">
+                <h1>Movie rentals on Prime Video</h1>
+                <h3>Early Access to new movies, before digital subscription</h3>
+                <button class="btn mt-3">Rent Now</button>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container-fluid widget">
+            <div class="mt-5 services1">
+                <h1>Your favorite channels all in <br> one place</h1>
+                <h3>With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</h3>
+            </div>
+            <div class="image-grid">
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/LionsgatePlay-426X2946_V1.jpg" alt="Image 1"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Discovery.jpg" alt="Image 2"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_BBC_PLAYER.png" alt="Image 3"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_MANORAMAMAX.jpg" alt="Image 4"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/hoichoi-426X2946_V1.jpg" alt="Image 5"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/426x294_Chaupal.png" alt="Image 6"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt="Image 7"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt="Image 8"></div>
+                <div><img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/Channels/MLP/Erosnow-426X2948_V1.jpg" alt="Image 9"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid fire">
+            <div class="f1"></div>
+            <div class="mt-5 f1">
+                <h1>Even better with Fire TV Stick</h1>
+                <h3>The biggest movies and TV shows are always better on a big screen. Simply plug in your Amazon Fire TV Stick and stream on any HDTV. Press the voice button on the remote and say the name of the title you want to watch to find it in seconds.</h3>
+                <button class="btn mt-3">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid d-flex pogo">
+            <div class="mt-5 pogo1">
+                <h1>Family Friendly</h1>
+                <h3>With easy to use Parental Controls and a dedicated kids page, enjoy <br> secure, ad-free kids entertainment. Kids can enjoy popular TV <br> shows like Peppa Pig, Powerpuff Girls, and Chhota Bheem.  </h3>
+                <button class="btn mt-3">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer bg-dark text-white">
+        <div class="container-fluid bg-dark text-white">
+            <img src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png" alt="">
+        </div>
+            <div class="foot">
+               <p>Terms and Privacy Notice</p>
+                <p>Send us feedback</p>
+                <p>Help</p>
+            </div>
+            <p>&copy;1996-2023, Amazon.com, Inc. or its affiliates</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
